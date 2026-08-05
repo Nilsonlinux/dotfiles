@@ -23,7 +23,6 @@ libva-intel-driver
 limine
 linux
 linux-firmware
-ly
 mako
 mkinitcpio
 nano
