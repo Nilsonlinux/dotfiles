@@ -1,0 +1,95 @@
+# Layer Rules
+
+[[window_rule]]
+match.app_id = "code"
+default_floating = false
+default_width = 1.00
+
+[[window_rule]]
+match.app_id = "firefox"
+default_floating = false
+default_width = 1.00
+
+[[window_rule]]
+match.app_id = "WebApp-Whatsapp8728"
+default_floating = false
+default_width = 0.71
+
+[[window_rule]]
+match.app_id = "org.telegram.desktop"
+default_floating = false
+default_width = 0.20
+
+[[layer_rule]]
+match.namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd|desktop-widget-[^\"]*)$"
+blur = true
+blur_ignore_alpha = 0.5
+blur_popups = true
+
+# Enable blur for every window
+[[window_rule]]
+blur = true
+
+# Wide columns for browsers
+[[window_rule]]
+match.app_id = "^(helium|chromium)$"
+default_width = 0.75
+
+# Always use VRR while a game is focused
+[[window_rule]]
+match.app_id = "^(steam_app_[0-9]+|gamescope)$"
+vrr = "always"
+
+# Slight transparency for editors and file managers
+[[window_rule]]
+match.app_id = "^(code|org\\.gnome\\.Nautilus)$"
+opacity = 0.97
+
+# Float utility windows
+[[window_rule]]
+match.app_id = "^(Emulator|zenity|xdg-desktop-portal|qalculate-gtk|org\\.pulseaudio\\.pavucontrol)$"
+default_floating = true
+
+# Float common dialogs by title
+[[window_rule]]
+match.title = "^(Open File|Select|Choose a wallpaper|Open Folder|Save As|Library|Choose Where to Download|File Operation Progress|Rename|Copy Files|Move Files|Search Files)"
+default_floating = true
+
+# Games on workspace 4, fullscreen
+[[window_rule]]
+match.app_id = "^(steam.*|overwatch|overwatch\\.exe)$"
+default_workspace = 4
+
+[[window_rule]]
+match.app_id = "^(steam_proton|steam_app.*|overwatch|overwatch\\.exe)$"
+default_fullscreen = true
+
+# Steam notification toasts
+[[window_rule]]
+match.title = "^notificationtoasts_.+_desktop"
+default_position = { x = 0, y = 0, anchor = "bottom_right" }
+default_focused = false
+default_pinned = true
+
+
+# Noctalia share picker
+[[window_rule]]
+match.app_id = "^dev.noctalia.UmbrielSharePicker$"
+default_floating = true
+default_size = [800, 600]
+default_position = { x = 32, y = 32, anchor = "bottom_right" }
+
+# Swash
+[[window_rule]]
+match.app_id = "^dev.lemmy.swash$"
+default_floating = true
+default_size = [1000, 900]
+
+# Dim unfocused windows
+[[window_rule]]
+match.is_focused = false
+opacity = 0.85
+
+[[window_rule]]
+match.is_focused = true
+opacity = 1.0
