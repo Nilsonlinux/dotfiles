@@ -1,4 +1,16 @@
 # Layer Rules
+[[window_rule]]
+blur = true
+
+[[window_rule]]
+match.app_id = "^dev.noctalia.Noctalia$"
+default_floating = true
+default_size = [1350, 720]
+blur_popups = false
+
+[[window_rule]]
+match.app_id = "^(code|org\\.gnome\\.Nautilus)$"
+opacity = 0.97
 
 [[window_rule]]
 match.app_id = "code"

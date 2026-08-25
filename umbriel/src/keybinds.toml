@@ -10,7 +10,7 @@
 "Mod+Shift+Space" = "window-move-to-scratchpad"
 "Mod+Space" = "scratchpad-toggle"
 "Mod+Ctrl+Space" = "window-restore-from-scratchpad"
-"Mod+Tab" = "scratchpad-focus-next"
+"Mod+Tab" = "overview-toggle"
 "Mod+0" = "scratchpad-toggle:DP-1"
 "Mod+Shift+0" = "window-move-to-scratchpad:DP-1"
 "Mod+Ctrl+0" = "window-restore-from-scratchpad:DP-1"

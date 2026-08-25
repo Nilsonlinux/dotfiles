@@ -1,6 +1,5 @@
 [general]
 autostart = [
-    "/usr/bin/mate-polkit",
     "noctalia",
 ]
 mod_key = "Super"
