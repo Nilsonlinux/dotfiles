@@ -1,5 +1,4 @@
 [keybinds]
-
 # Screenshots
 "Print" = "spawn:noctalia msg screenshot-region"
 "Mod+Print" = "spawn:noctalia msg screenshot-fullscreen"
