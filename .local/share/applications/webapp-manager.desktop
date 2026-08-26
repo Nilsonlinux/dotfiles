@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WebApp Manager
+Comment=Gerenciar aplicativos web
+Exec=/usr/bin/webapp-manager
+Icon=/usr/share/icons/hicolor/scalable/apps/webapp-manager.svg
+Terminal=false
+Type=Application
+Categories=System;Utility;
+StartupNotify=true
