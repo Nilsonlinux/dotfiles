@@ -22,15 +22,17 @@ match.app_id = "firefox"
 default_floating = false
 default_width = 1.00
 
+# Para o WhatsApp
 [[window_rule]]
-match.app_id = "WebApp-Whatsapp8728"
+match.app_id = "WebApp-Whatsapp2141"
 default_floating = false
 default_width = 0.71
 
+# Para o Telegram  
 [[window_rule]]
 match.app_id = "org.telegram.desktop"
 default_floating = false
-default_width = 0.25
+default_width = 0.27
 
 [[layer_rule]]
 match.namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd|desktop-widget-[^\"]*)$"
