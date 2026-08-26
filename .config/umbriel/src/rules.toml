@@ -34,6 +34,12 @@ match.app_id = "org.telegram.desktop"
 default_floating = false
 default_width = 0.27
 
+#Satty
+[[window_rule]]
+match.app_id = "com.gabm.satty"
+default_floating = false
+default_width = 1.00
+
 [[layer_rule]]
 match.namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd|desktop-widget-[^\"]*)$"
 blur = true
@@ -58,6 +64,10 @@ vrr = "always"
 [[window_rule]]
 match.app_id = "^(code|org\\.gnome\\.Nautilus)$"
 opacity = 0.97
+
+[[window_rule]]
+match.app_id = "^(Alacritty|kitty|org\\.gnome\\.Nautilus)$"
+default_width = 0.55
 
 # Float utility windows
 [[window_rule]]
