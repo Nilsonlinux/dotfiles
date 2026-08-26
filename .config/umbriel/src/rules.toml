@@ -18,6 +18,11 @@ default_floating = false
 default_width = 1.00
 
 [[window_rule]]
+match.app_id = "io.github.kolunmi.Bazaar"
+default_floating = false
+default_width = 1.00
+
+[[window_rule]]
 match.app_id = "firefox"
 default_floating = false
 default_width = 1.00
