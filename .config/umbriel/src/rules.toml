@@ -13,6 +13,12 @@ match.app_id = "^(code|org\\.gnome\\.Nautilus)$"
 opacity = 0.97
 
 [[window_rule]]
+match.app_id = "de.haeckerfelix.Shortwave"
+default_floating = true
+default_size = [1050, 650]
+blur_popups = false
+
+[[window_rule]]
 match.app_id = "code"
 default_floating = false
 default_width = 1.00
