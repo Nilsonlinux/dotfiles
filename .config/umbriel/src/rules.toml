@@ -43,7 +43,7 @@ default_width = 0.71
 [[window_rule]]
 match.app_id = "org.telegram.desktop"
 default_floating = false
-default_width = 0.27
+default_width = 0.29
 
 #Satty
 [[window_rule]]
