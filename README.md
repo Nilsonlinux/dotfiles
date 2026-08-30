@@ -9,3 +9,5 @@ sudo pacman -S bazaar flatpak satty kitty fish starship fastfetch noctalia spoti
 chsh -s $(which fish)
 
 git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
