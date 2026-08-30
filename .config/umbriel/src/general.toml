@@ -8,9 +8,6 @@ show_cheatsheet = false
 
 [environment]
 MOZ_ENABLE_WAYLAND = "1"
-XDG_SESSION_TYPE = "wayland"
-XDG_CURRENT_DESKTOP = "umbriel"
-XDG_SESSION_DESKTOP = "umbriel"
 MOZ_DBUS_REMOTE = "1"
 GDK_BACKEND = "wayland"
 QT_AUTO_SCREEN_SCALE_FACTOR = "1"
