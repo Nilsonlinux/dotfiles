@@ -21,4 +21,5 @@ git clone https://aur.archlinux.org/paru.git
 `makepkg -si`
 
 ```rust
-paru umbriel-git xdg-desktop-portal-umbriel-git```
+paru umbriel-git xdg-desktop-portal-umbriel-git
+```
