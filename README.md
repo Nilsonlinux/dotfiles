@@ -20,6 +20,15 @@ git clone https://aur.archlinux.org/paru.git
 `cd paru`
 `makepkg -si`
 
-```rust
-paru umbriel-git xdg-desktop-portal-umbriel-git
+```sh
+paru noctalia-greeter umbriel-git xdg-desktop-portal-umbriel-git
+```
+- Faça a alteração no arquivo do Greetd
+
+```sh
+sudo nano /etc/greetd/config.toml
+```
+- Comente a linha command ou substitua pela linha abaixo. 
+```sh
+command = "noctalia-greeter-session"
 ```
