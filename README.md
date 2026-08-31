@@ -30,5 +30,5 @@ sudo nano /etc/greetd/config.toml
 ```
 - Comente a linha command ou substitua pela linha abaixo. 
 ```sh
-command = "command = "noctalia-greeter-compositor"
+command = "noctalia-greeter-compositor"
 ```
