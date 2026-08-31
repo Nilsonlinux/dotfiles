@@ -23,12 +23,12 @@ git clone https://aur.archlinux.org/paru.git
 ```sh
 paru noctalia-greeter umbriel-git xdg-desktop-portal-umbriel-git
 ```
-- Faça a alteração no arquivo do Greetd
+- Alteração no arquivo do Greetd
 
 ```sh
 sudo nano /etc/greetd/config.toml
 ```
-- Comente a linha command ou substitua pela linha abaixo. 
+- Comente a linha command e adicione esse comando abaixo ou substitua. 
 ```sh
 command = "noctalia-greeter-compositor"
 ```
