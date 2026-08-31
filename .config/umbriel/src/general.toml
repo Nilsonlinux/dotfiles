@@ -1,10 +1,21 @@
 [general]
 autostart = [
     "noctalia",
+    "kitty",
 ]
 mod_key = "Super"
 xwayland = true
 show_cheatsheet = false
+
+[hot_corners.top_left]
+enabled = true
+delay_ms = 50
+action = "overview-open"
+
+[hot_corners.bottom_right]
+enabled = true
+delay_ms = 300
+action = "spawn:notify-send 'Bottom right'"
 
 [environment]
 MOZ_ENABLE_WAYLAND = "1"
