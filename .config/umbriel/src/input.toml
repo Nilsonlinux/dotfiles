@@ -14,6 +14,7 @@ layout = "br"
 options = "grp:alt_shift_toggle"
 repeat_delay = 300
 repeat_rate = 30
+numlock_toggle = true
 
 [input.cursor]
 theme = "Bibata-Modern-Ice"   # Tema do cursor
