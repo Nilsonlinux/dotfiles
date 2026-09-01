@@ -35,7 +35,7 @@ default_width = 1.00
 
 # Para o WhatsApp
 [[window_rule]]
-match.app_id = "WebApp-Whatsapp2141"
+match.app_id = "com.rtosta.zapzap"
 default_floating = false
 default_width = 0.71
 
