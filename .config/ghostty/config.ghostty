@@ -1,0 +1,7 @@
+theme = noctalia
+font-family = "FiraCode Nerd Font"
+font-size = 10
+# Configuração de transparência
+background-opacity = 0.9
+# (Opcional) Desfoque para macOS
+background-blur-radius = 16
