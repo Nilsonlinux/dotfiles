@@ -21,7 +21,7 @@ git clone https://aur.archlinux.org/paru.git
 `makepkg -si`
 
 ```sh
-paru noctalia-greeter umbriel-git xdg-desktop-portal-umbriel-git
+paru noctalia-greeter umbriel-git xdg-desktop-portal-umbriel-git whatsapp-linux-desktop-bin
 ```
 - Alteração no arquivo do Greetd
 
