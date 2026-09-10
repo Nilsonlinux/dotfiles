@@ -1,7 +1,7 @@
 [general]
 autostart = [
     "noctalia",
-    "WebApp-Whatsapp5037",
+    "WhatsApp Desktop",
     "org.telegram.desktop",
 ]
 mod_key = "Super"
